@@ -10,80 +10,141 @@
 
     <title>Inacap</title>
   </head>
+
+    <style>
+        .imgfondo{
+            background-image: url("slide_2.jpg");
+            height: 80vh;
+            background-size: cover;
+
+           filter: contrast(25%) sepia(5%) brightness(80%); 
+        }
+
+    </style>
   <body>
-    <header>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
+    <header style="box-shadow: 0px 0px 50px opx black;">
+
+        <div class="row">
+
+            <div class="col-sm-2 p-3">
+                <img src="inacap.jpg" alt="Logo Inacap" style="width:90%; height:auto; padding-left:10%;">
+        </div><!--fin primer col logo-->
+
+        <div class="col-sm-10 p-3 ">
+            <ul class="nav justify-content-end">
+
+            
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: bolder; color: black;">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html" style="font-weight: bolder; color: black;">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portafolio.html" style="font-weight: bolder; color: black;">PORTAFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html" style="font-weight: bolder; color: black;">CONTACTO</a>
+                </li>
+              </ul>
+        </div><!--fin col de nav-->
+
+        </div><!--fin del row-->
     </header>
-    <div class="container">
+    
+
+        <div class="row">
+
+
+            <div class="card bg-dark text-white">
+                <!--<img src="slide_2.jpg" class="card-img" alt="Banner" style="filter: contrast(25%) sepia(5%) brightness(80%); border-bottom:25% white; height:100%;"> -->
+                <div class="col-sm-12 imgfondo"></div>
+                
+                <div class="card-img-overlay">
+                    <p class="card-text" style="margin-left: 10%; margin-top: 10%;">Somos</p>
+                  <h1 class="card-title" style="margin-left: 10%;">INACAP</h1>
+                 <p class="card-text" style="margin-left: 10%;">Desarrollo de Aplicaciones Web</p>
+                 <br>
+                <a href="portafolio.html" style="margin-left: 10%;"><button type="button" class="btn btn-info btn-lg text-white text-uppercase">Proyectos</button></a>
+                </div>
+              </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+
+            </div>
+
+            <div class="col">
+
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col">
+
+            </div>
+        </div>
+       
 
 
 
 
 
-    </div>
+    
+
+<br><br>
+ <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+
+    <br><br>
 
 
-    <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
+    <h3>REDES SOCIALES</h3>
+    
 
-    <!-- Footer Elements -->
-    <div class="container">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a  href="www.facebook.com" role="button"
+          ><img src="face 2.png" alt="logo facebook" style="width:3%;"></a>
   
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fab fa-facebook-f"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fab fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fab fa-google-plus-g"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-dribbble mx-1">
-            <i class="fab fa-dribbble"> </i>
-          </a>
-        </li>
-      </ul>
-      <!-- Social buttons -->
+        <!-- Twitter -->
+        <a  href="www.twitter.com" role="button"
+          ><img src="tw 1.png" alt="logo Twitter" style="width:3%;"></a>
   
+        
+        <!-- Linkedin -->
+        <a  href="#!" role="button"
+          ><img src="ln.png" alt="logo Linkedin" style="width:2.5%;"></a>
+  
+       
+      </section>
+      <!-- Section: Social media -->
+  
+  
+  
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
     </div>
-    <!-- Footer Elements -->
+    <!-- Grid container -->
   
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">INACAP</a>
     </div>
     <!-- Copyright -->
-  
   </footer>
   <!-- Footer -->
-
 
 
 
